@@ -1,0 +1,173 @@
+Question: What are Scope 1 emissions in the context of Bitcoin mining operations?
+Answer: Scope 1 emissions are direct greenhouse gas emissions that occur from sources owned or controlled by the Bitcoin mining facility. This includes emissions from on-site combustion of natural gas for power generation or heating, diesel fuel used in backup generators, company-owned vehicles for maintenance and security, and fugitive emissions such as refrigerant leaks from cooling systems and SF6 leaks from electrical switchgear.
+
+Question: What are Scope 2 emissions for cryptocurrency mining facilities?
+Answer: Scope 2 emissions are indirect emissions from the consumption of purchased electricity, heat, steam, or cooling. For Bitcoin mining, this is dominated by electricity consumption for ASIC miners, which typically represents 95-98% of total emissions. Additional Scope 2 sources include electricity for cooling systems (1-3%), facility operations, and administrative offices.
+
+Question: How should I measure electricity consumption for ASIC miners?
+Answer: Electricity consumption for ASIC miners should be measured in kilowatt-hours (kWh) using dedicated meters at the miner level or circuit level. Track total kWh consumed, operational hash rate (TH/s or EH/s), and calculate efficiency metrics like J/TH (joules per terahash). This data collection is CRITICAL priority as ASIC electricity represents 95-98% of total emissions for Bitcoin mining operations.
+
+Question: What is Power Usage Effectiveness (PUE) and why is it important?
+Answer: Power Usage Effectiveness (PUE) is a critical efficiency metric calculated as total facility energy divided by IT equipment energy. For Bitcoin mining, target PUE should be below 1.2. A PUE of 1.2 means that for every 1 kW used by mining equipment, an additional 0.2 kW is used for cooling and other infrastructure. Lower PUE indicates better efficiency and lower overall emissions per hash rate.
+
+Question: How do I track cooling system electricity consumption?
+Answer: Cooling system electricity should be tracked separately from ASIC miner consumption, measured in kWh. This includes power for fans, pumps, chillers, and immersion cooling circulation systems. Cooling typically represents 1-3% of total emissions but is critical for PUE calculations. Measure consumption at the cooling infrastructure level and track against ambient temperature and hash rate to optimize efficiency.
+
+Question: What data should I collect for natural gas combustion at my mining facility?
+Answer: For natural gas used in on-site power generation or heating, collect consumption data in kWh or cubic meters. This is a Scope 1 emission source with LOW-MEDIUM priority, typically representing 0.1-2% of total emissions. Also track the purpose (power generation vs heating), efficiency of combustion equipment, and any cogeneration benefits if using combined heat and power systems.
+
+Question: How should I track diesel fuel consumption for backup generators?
+Answer: Track diesel fuel consumption in liters for all backup generator usage. This is a Scope 1 emission source with LOW priority, typically representing 0.1-0.5% of total emissions. Record runtime hours, fuel consumed per hour, and frequency of generator use. Document whether use was for testing, maintenance, or actual power outages to understand patterns.
+
+Question: What refrigerant leaks do I need to track for my cooling systems?
+Answer: Track all refrigerant leaks from HVAC systems and immersion cooling by refrigerant type (R-410A, R-134a, etc.) and quantity in kilograms. This is a Scope 1 fugitive emission with LOW priority (0.01-0.1% of total emissions). Maintain leak detection logs, repair records, and annual refrigerant inventory reconciliations. Different refrigerants have vastly different global warming potentials, so proper classification is essential.
+
+Question: What is the grid carbon intensity and why does it matter?
+Answer: Grid carbon intensity is the emission factor measured in gCO2/kWh, representing how much CO2 is emitted per unit of electricity from your local grid. This is CRITICAL for Scope 2 calculations because it converts your electricity consumption (kWh) into actual emissions (tonnes CO2e). Grid intensity varies significantly by location and time of day - ranging from near zero for renewable grids to over 1000 gCO2/kWh for coal-heavy grids.
+
+Question: How do I track renewable energy usage at my mining facility?
+Answer: Track renewable energy as a percentage of total consumption and by source type (solar, wind, hydro). Document through: (1) direct renewable installations with capacity in MW and generation in kWh, (2) Power Purchase Agreements (PPAs) with contract terms and kWh supplied, (3) Renewable Energy Certificates (RECs) purchased with vintage and volume, and (4) grid renewable percentage if applicable. This is CRITICAL for reducing Scope 2 emissions and improving sustainability metrics.
+
+Question: What are Power Purchase Agreements (PPAs) and how do they affect emissions?
+Answer: PPAs are contracts to purchase electricity directly from renewable energy generators. For emission accounting, document PPA terms, contracted kWh, renewable source type, and whether the agreement provides time-matched or volume-matched renewable energy. High-quality PPAs with time-matching can significantly reduce or eliminate Scope 2 emissions. Track as contract terms and kWh supplied - this is HIGH priority for emission reduction strategies.
+
+Question: What is the difference between time-matching and volume-matching for renewable energy?
+Answer: Time-matching means renewable energy generation matches your consumption hour-by-hour, providing true carbon-free power when you use it. Volume-matching means total annual renewable energy purchased equals annual consumption, but timing may not align. Time-matching (hourly certificates) provides more accurate emission reduction claims than volume-matching (annual certificates), especially important for mining operations with 24/7 loads.
+
+Question: How should I track SF6 leaks from electrical switchgear?
+Answer: Track SF6 (sulfur hexafluoride) leaks in kilograms from all electrical switchgear and high-voltage equipment. This is a Scope 1 fugitive emission with LOW priority (0.001-0.05% of total emissions) but SF6 has an extremely high global warming potential (23,500 times CO2), making accurate tracking important. Maintain annual inventory records, leak detection surveys, and repair documentation.
+
+Question: What facility operations electricity should I track separately?
+Answer: Track facility operations electricity separately from mining and cooling, measured in kWh. This includes lighting, security systems, monitoring equipment, office space, and auxiliary systems. This is typically 0.1-0.5% of total emissions with MEDIUM priority. Separate metering helps identify optimization opportunities and ensures accurate PUE calculations.
+
+Question: How do I measure hash rate performance for emission reporting?
+Answer: Measure operational hash rate in terahashes per second (TH/s) or exahashes per second (EH/s) as a continuous metric. This is CRITICAL for calculating emission intensity metrics like gCO2/TH and energy efficiency (J/TH). Track average hash rate over reporting periods, correlate with power consumption, and monitor for degradation that would indicate declining efficiency and higher emission intensity.
+
+Question: What administrative office electricity data should I collect?
+Answer: Collect electricity consumption in kWh for administrative and office spaces separate from mining operations. This typically represents 0.05-0.2% of total emissions with MEDIUM priority. If offices share buildings with mining equipment, use area-based allocation or sub-metering to separate consumption accurately.
+
+Question: Should I track emissions from company vehicles?
+Answer: Yes, track fuel consumption by type (gasoline, diesel) in liters for all company-owned vehicles used for maintenance, security, and transport. This is Scope 1 mobile combustion with LOW priority (0.01-0.1% of emissions). Track vehicle types, distances traveled, and fuel efficiency to identify potential optimization opportunities.
+
+Question: What heavy equipment fuel consumption should I monitor?
+Answer: Monitor fuel consumption in liters for heavy equipment including forklifts, excavators, and other facility operations equipment. This is Scope 1 mobile combustion with LOW priority (0.01-0.05% of emissions). Track hours of operation, fuel type, and equipment efficiency to maintain accurate records.
+
+Question: How should I track natural gas leaks from on-site generation equipment?
+Answer: Track fugitive natural gas leaks in cubic meters from on-site power generation equipment using leak detection surveys and mass balance approaches. This is Scope 1 fugitive emission with LOW priority (0.01-0.1% of emissions). Conduct regular leak detection and repair (LDAR) programs and maintain detailed records of identified leaks and repairs.
+
+Question: What is upstream electricity generation in Scope 3?
+Answer: Upstream electricity generation (Scope 3 Category 3) includes transmission and distribution (T&D) losses and upstream emissions from fuel extraction and processing used to generate your purchased electricity. This typically adds 10-15% to your Scope 2 emissions. Calculate by applying T&D loss factors and upstream emission factors to your total electricity consumption in kWh.
+
+Question: How do I calculate emissions from purchased electricity?
+Answer: Calculate Scope 2 emissions by multiplying electricity consumption (kWh) by the grid carbon intensity (gCO2/kWh), then convert to tonnes CO2e. Formula: Emissions (tCO2e) = kWh × (gCO2/kWh) ÷ 1,000,000. Use location-based factors from your local grid or market-based factors if you have renewable energy contracts. This calculation is CRITICAL as it represents 95-98% of total emissions.
+
+Question: What are the most critical emission tracking activities for Bitcoin mining?
+Answer: The most critical activities are: (1) ASIC miner electricity consumption in kWh (95-98% of emissions), (2) hash rate performance in TH/s for intensity metrics, (3) Power Usage Effectiveness (PUE) ratio for efficiency, (4) renewable energy percentage and source documentation, and (5) grid carbon intensity in gCO2/kWh. These five metrics are all CRITICAL priority and form the foundation of emission accounting for mining operations.
+
+Question: What Scope 3 emissions should Bitcoin miners track?
+Answer: Priority Scope 3 emissions for Bitcoin mining include: Category 1 - ASIC hardware procurement (embodied carbon), Category 3 - upstream electricity emissions (T&D losses), Category 4 - ASIC shipping from manufacturers, Category 2 - capital infrastructure for facility buildout, and Category 5 & 12 - electronic waste from obsolete miners. ASIC hardware and upstream electricity are HIGH priority, representing 1-2% and 0.5-1.5% of total footprint respectively.
+
+Question: How should I track ASIC hardware purchases for Scope 3 emissions?
+Answer: Track ASIC hardware purchases by units purchased, model specifications, efficiency (J/TH), expected lifecycle, and purchase cost in USD. This is Scope 3 Category 1 with HIGH priority (1-2% of total emissions). Document manufacturer, manufacturing location, and embodied carbon data if available. This helps calculate lifecycle emission intensity and plan for hardware refresh cycles.
+
+Question: What data should I collect about ASIC transportation?
+Answer: For ASIC transportation (Scope 3 Category 4), collect: international shipping distance in tonne-kilometers (tkm), shipping method (ocean freight, air freight), number of units and total weight, and origin/destination. This is MEDIUM priority (0.2-0.5% of emissions). Most ASICs ship from China/Malaysia to facility locations, typically via ocean freight in TEU containers.
+
+Question: How do I track electronic waste from retired ASIC miners?
+Answer: Track e-waste from failed or obsolete ASICs in kilograms or number of units by model, documenting disposal method (recycling, refurbishment, landfill). This is Scope 3 Categories 5 and 12 with MEDIUM priority (0.1-0.3% of emissions). Maintain records of recycler certifications, material recovery rates, and responsible disposal practices for ESG reporting.
+
+Question: What cooling infrastructure emissions should I track for Scope 3?
+Answer: For cooling infrastructure (Scope 3 Category 1), track purchases of immersion tanks, fans, heat exchangers, chillers, and cooling fluids in USD or units. This is MEDIUM priority. Document cooling fluid type and quantity in liters, replacement frequency, and disposal method. Proper tracking helps assess embodied carbon in cooling systems relative to operational efficiency gains.
+
+Question: Should I track district heating or cooling if applicable?
+Answer: Yes, if your facility uses district heating or cooling, track consumption in kWh or BTU as Scope 2 purchased heating/cooling. This is LOW priority (0.01-0.1% of emissions) and rare for mining operations, but must be included if applicable. Document the heating/cooling source and emission factors from the district energy provider.
+
+Question: What is flare gas mining and how should emissions be tracked?
+Answer: Flare gas mining captures methane from oil/gas operations that would otherwise be flared and uses it for on-site power generation. Track: (1) cubic meters of gas captured, (2) counterfactual emissions avoided (methane has 25x CO2 warming potential), (3) Scope 1 emissions from generator combustion, (4) net emission benefit. This is LOW-MEDIUM priority and provides emission reduction credits against baseline.
+
+Question: How do I calculate emission intensity metrics?
+Answer: Calculate emission intensity as gCO2e per terahash (gCO2/TH) by dividing total emissions (in grams CO2e) by total hash production (in TH). Formula: Intensity = (Annual tCO2e × 1,000,000) ÷ (Average TH/s × 31,536,000 seconds/year). This normalizes emissions against productive output and enables benchmarking across facilities. Track monthly and annually to monitor improvement.
+
+Question: What is the GHG Protocol and why is it important?
+Answer: The GHG Protocol is the international standard for corporate greenhouse gas accounting and reporting, providing the framework for classifying emissions into Scope 1, 2, and 3. It's important because it ensures consistent, comparable, and complete emission reporting. Bitcoin mining companies should follow GHG Protocol Corporate Standard for comprehensive emission accounting and credible sustainability claims.
+
+Question: How should I track water consumption for cooling systems?
+Answer: Track water consumption in cubic meters for evaporative cooling, immersion cooling makeup water, or any water-based cooling systems. This is Scope 3 Category 1 (purchased goods) with MEDIUM priority. Document water source, treatment requirements, and any water recycling/reuse systems. Water efficiency is increasingly important for operational sustainability and community relations.
+
+Question: What metrics should I track for demand response participation?
+Answer: For demand response programs, track: hours curtailed or shifted, kWh of load reduction, compensation received, and grid services provided. This is MEDIUM priority for emission reduction strategies. Demand response can reduce grid strain during peak carbon-intensive hours and provide revenue while potentially lowering emission intensity through strategic load timing.
+
+Question: How do I track combined heat and power (CHP) systems?
+Answer: For CHP or cogeneration systems, track: fuel consumption in kWh, electricity generated (kWh), useful heat recovered (kWh or BTU), overall system efficiency (%), and heat application (facility heating, district heating). This is Scope 1 stationary combustion with LOW-MEDIUM priority (0.1-1% of emissions). CHP can improve overall efficiency and reduce net emissions compared to separate heat and power.
+
+Question: What capital infrastructure emissions should I track?
+Answer: Track Scope 3 Category 2 capital goods including: data center construction (USD or square meters), electrical infrastructure (transformers, substations, switchgear in USD), power distribution equipment, and container mining units (number or USD). This is MEDIUM priority for new facilities, representing one-time significant emissions amortized over facility lifetime (typically 10-20 years).
+
+Question: How should I document renewable energy installations?
+Answer: For owned renewable installations (solar, wind, hydro), document: installed capacity (MW), generation (kWh), capacity factor (%), capital cost, and operational date. Track monthly generation and correlate with mining consumption. This is CRITICAL for Scope 2 emission reduction. Owned renewables provide the highest quality emission reductions with direct temporal matching.
+
+Question: What is the difference between location-based and market-based Scope 2 accounting?
+Answer: Location-based accounting uses average grid emission factors for your location, while market-based accounting reflects contractual instruments like PPAs and RECs. Report both methods: location-based shows physical grid impact, market-based shows your carbon reduction efforts through renewable procurement. Market-based can be significantly lower if you have strong renewable energy contracts.
+
+Question: How do I track transmission and distribution losses?
+Answer: T&D losses are part of Scope 3 Category 3 and typically represent 5-10% of purchased electricity. Calculate by multiplying your kWh consumption by regional T&D loss factors (available from grid operators or national databases), then applying grid emission factors to the lost energy. This adds approximately 5-10% to total Scope 2 emissions and is HIGH priority for comprehensive accounting.
+
+Question: What monitoring equipment electricity should I separately track?
+Answer: Track electricity for monitoring systems, sensors, control systems, and data collection infrastructure separately from mining operations. Measure in kWh. This is typically negligible (<0.01% of total) but important for complete facility energy modeling and PUE calculations. Precise sub-metering helps identify all energy flows.
+
+Question: Should I track employee commuting for Bitcoin mining facilities?
+Answer: Track employee commuting (Scope 3 Category 7) by surveying: commute distance (km), mode of transport, and remote work days. This is typically LOW priority given that modern mining facilities are highly automated with minimal staff. However, include for comprehensive Scope 3 reporting if pursuing carbon neutrality or detailed ESG disclosure.
+
+Question: How should I handle emission factors for different fuel types?
+Answer: Use fuel-specific emission factors from recognized sources (EPA, IPCC, local authorities). For natural gas: ~0.184 kg CO2/kWh or ~2.0 kg CO2/m³. For diesel: ~2.68 kg CO2/liter. For gasoline: ~2.31 kg CO2/liter. Document emission factor sources and update annually. Use higher heating value (HHV) or lower heating value (LHV) consistently and note which is used in reporting.
+
+Question: What is the typical emission breakdown for a Bitcoin mining facility?
+Answer: Typical breakdown: Scope 2 electricity for ASICs (95-98%), Scope 2 cooling electricity (1-3%), Scope 3 upstream electricity (0.5-1.5%), Scope 3 ASIC hardware (1-2%), Scope 2 facility operations (0.1-0.5%), Scope 1 on-site generation if applicable (0.1-2%), all other sources (<0.5% combined). Actual percentages vary based on cooling efficiency, renewable energy usage, and whether on-site generation is employed.
+
+Question: How frequently should I collect emission data?
+Answer: Collect CRITICAL data (ASIC electricity, hash rate, cooling electricity) continuously with at least hourly granularity. Collect HIGH priority data (renewable energy, grid factors) monthly. Collect MEDIUM priority data (facility operations, fugitive emissions) monthly or quarterly. Collect LOW priority data (vehicle fuel, office electricity) quarterly or annually. Continuous monitoring of primary sources enables real-time optimization and accurate reporting.
+
+Question: What is heat reuse and how does it affect emissions?
+Answer: Heat reuse involves capturing waste heat from ASIC miners for beneficial purposes like greenhouse heating, district heating, or building heat. Track heat recovered (kWh or BTU) and application. This is MEDIUM priority and can provide emission reduction credits if heat displaces fossil fuel consumption elsewhere. Calculate avoided emissions from displaced heating and include in Scope 3 or as a separate emission reduction category.
+
+Question: How should I track immersion cooling fluid consumption?
+Answer: Track immersion cooling fluid type, volume in liters, replacement frequency, and disposal method. This is Scope 3 Category 1 (purchased goods) with MEDIUM priority. Different fluids (mineral oil, synthetic, engineered fluids) have different environmental profiles. Document any fluid leaks, degradation rates, and recycling/disposal pathways for complete lifecycle tracking.
+
+Question: What seasonal variations should I account for in emission tracking?
+Answer: Account for seasonal variations in: grid carbon intensity (higher in winter in some regions), cooling requirements (higher in summer), heating requirements (natural gas in winter), renewable energy generation (solar varies by season), and hash rate performance (temperature affects efficiency). Track these variations monthly to identify optimization opportunities and ensure accurate annual reporting.
+
+Question: How do I track Renewable Energy Certificates (RECs)?
+Answer: For RECs (also called Guarantees of Origin in Europe), track: volume in MWh, vintage year, generation source, registry, retirement date, and whether bundled with electricity or unbundled. This affects market-based Scope 2 emissions. Document REC quality (time-matched hourly vs. annual), additionality claims, and ensure proper retirement to avoid double-counting. This is CRITICAL for credible renewable energy claims.
+
+Question: What security system electricity should I track?
+Answer: Track security system electricity including cameras, access control, perimeter monitoring, and alarm systems separately in kWh. This is part of facility operations with LOW-MEDIUM priority (<0.05% of emissions). Helps complete facility energy model and identify all auxiliary loads that contribute to PUE beyond mining and cooling.
+
+Question: How should I document carbon offset purchases?
+Answer: If purchasing carbon offsets, document: offset type (removal vs. avoidance), volume in tCO2e, vintage, project type, registry, verification standard (Gold Standard, Verra VCS, etc.), retirement certificate, and cost per tonne. Offsets do NOT reduce Scope 1/2/3 emissions but should be reported separately as compensation. Prioritize high-quality, additional, permanent offsets verified to recognized standards.
+
+Question: What is the role of blockchain in emission tracking?
+Answer: Blockchain can provide transparent, immutable records of emission data, renewable energy certificates, and carbon credits. Some mining companies use blockchain to timestamp energy consumption data, prove renewable energy usage, or tokenize carbon credits. This is not required but can enhance credibility and transparency of emission claims, particularly for third-party verification.
+
+Question: How do I calculate avoided emissions from renewable energy?
+Answer: Calculate avoided emissions by comparing actual emissions with renewable energy to a baseline without renewables. Formula: Avoided Emissions = (kWh from renewables) × (grid carbon intensity) - (renewable facility embodied emissions amortized). Report avoided emissions separately from Scope 1/2/3. This is important for demonstrating emission reduction impact but should not be confused with actual scope emissions.
+
+Question: What third-party verification should I pursue for emission data?
+Answer: Pursue third-party verification to ISO 14064 or GHG Protocol standards for credible emission reporting. Verification involves independent auditors reviewing: data collection procedures, emission calculations, supporting documentation, and management systems. This is important for investor reporting, ESG ratings, carbon credit generation, and regulatory compliance. Aim for limited or reasonable assurance depending on reporting needs.
+
+Question: How should I handle uncertainty in emission calculations?
+Answer: Document uncertainty for each emission source including: data quality (metered vs estimated), emission factor uncertainty, temporal resolution, and calculation methodology. Quantify uncertainty ranges where possible (e.g., ±5% for metered electricity, ±20% for estimated fugitive emissions). Report overall uncertainty in total emissions and use conservative assumptions. This demonstrates methodological rigor and supports verification processes.
+
+Question: What is Scope 3 Category 15 and does it apply to Bitcoin mining?
+Answer: Scope 3 Category 15 covers investments - emissions from companies or projects in which you have invested. This typically does not apply to Bitcoin mining operations themselves but may apply to mining companies that invest in other mining facilities, renewable energy projects, or hold equity in emissions-intensive businesses. If applicable, track proportional share of invested entity's Scope 1 and 2 emissions.
+
+Question: How do I benchmark my facility's emission performance?
+Answer: Benchmark using emission intensity (gCO2/TH) against: industry averages, best-in-class facilities, and your historical performance. Key factors affecting intensity: grid carbon intensity, PUE, ASIC efficiency (J/TH), and renewable energy percentage. A facility using 100% renewables with PUE of 1.05 can achieve near-zero operational emissions, while coal-grid facilities with PUE of 1.3+ may exceed 500 gCO2/TH.
+
+Question: What reporting frameworks should Bitcoin mining companies use?
+Answer: Use: (1) GHG Protocol Corporate Standard for emission accounting, (2) TCFD (Task Force on Climate-related Financial Disclosures) for climate risk reporting, (3) CDP (Carbon Disclosure Project) for investor-grade disclosure, (4) GRI (Global Reporting Initiative) for sustainability reporting, and (5) SASB (Sustainability Accounting Standards Board) for industry-specific metrics. Multiple frameworks are often required for comprehensive stakeholder communication.
+
+Question: How should I track emissions during facility construction?
+Answer: Track construction phase emissions as Scope 3 Category 2 (capital goods). Include: concrete production, steel manufacturing, construction equipment fuel, transportation of materials, and contractor activities. Document project size (MW capacity, square meters), construction timeline, and capital cost (USD). Amortize construction emissions over facility lifetime (typically 10-20 years) for per-year emission allocation.
+
+Question: What mobile combustion sources beyond vehicles should I track?
+Answer: Beyond standard vehicles, track mobile combustion from: transport trucks for ASIC delivery, rental vehicles, contractor vehicles if within operational control, emergency response vehicles, and any off-road equipment. This is Scope 1 with LOW priority but should be included for complete accounting. Document fuel type, consumption, and whether source is owned, leased, or contracted.

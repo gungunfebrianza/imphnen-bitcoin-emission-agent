@@ -1,0 +1,22 @@
+EmissionScope,ActivityCategory,EmissionSource,DataToCollect,UnitOfMeasure,TypicalPercentage,PriorityLevel
+Scope1,StationaryCombustion,Natural gas for on-site power generation,Gas consumption,kWh or cubic meters,0.1-2,LOW-MEDIUM
+Scope1,StationaryCombustion,Diesel fuel for backup generators,Diesel consumption,Liters,0.1-0.5,LOW
+Scope1,StationaryCombustion,Natural gas for facility heating,Gas consumption,kWh or cubic meters,0.05-0.3,LOW
+Scope1,StationaryCombustion,Combined heat and power (CHP) systems,Fuel consumption,kWh,0.1-1,LOW-MEDIUM
+Scope1,MobileCombustion,Company vehicles for maintenance and security,Fuel consumption by type,Liters,0.01-0.1,LOW
+Scope1,MobileCombustion,Heavy equipment for facility operations,Fuel consumption,Liters,0.01-0.05,LOW
+Scope1,MobileCombustion,Transport vehicles for ASIC delivery,Fuel consumption,Liters,0.01-0.05,LOW
+Scope1,FugitiveEmissions,Refrigerant leaks from immersion cooling,Refrigerant quantity by type,kg,0.01-0.1,LOW
+Scope1,FugitiveEmissions,Refrigerant leaks from HVAC systems,Refrigerant quantity by type,kg (R-410A R-134a),0.01-0.1,LOW
+Scope1,FugitiveEmissions,SF6 leaks from electrical switchgear,SF6 quantity,kg,0.001-0.05,LOW
+Scope1,FugitiveEmissions,Natural gas leaks from generation equipment,Gas quantity,Cubic meters,0.01-0.1,LOW
+Scope2,PurchasedElectricity,ASIC miner electricity consumption,Electricity usage,kWh,95-98,CRITICAL
+Scope2,PurchasedElectricity,Cooling system electricity,Electricity usage,kWh,1-3,CRITICAL
+Scope2,PurchasedElectricity,Facility operations electricity,Electricity usage,kWh,0.1-0.5,HIGH
+Scope2,PurchasedElectricity,Administrative office electricity,Electricity usage,kWh,0.05-0.2,MEDIUM
+Scope2,CriticalMetrics,Hash rate performance,Operating hash rate,TH/s or EH/s,N/A,CRITICAL
+Scope2,CriticalMetrics,Power Usage Effectiveness,PUE ratio,Ratio (target <1.2),N/A,CRITICAL
+Scope2,CriticalMetrics,Renewable energy percentage,Renewable share,% and source type,N/A,CRITICAL
+Scope2,CriticalMetrics,Grid carbon intensity,Emission factor,gCO2/kWh,N/A,CRITICAL
+Scope2,CriticalMetrics,Power Purchase Agreements,PPA details,Contract terms kWh,N/A,HIGH
+Scope2,PurchasedHeatingCooling,District heating or cooling,Heat/cooling consumption,kWh,0.01-0.1,LOW
